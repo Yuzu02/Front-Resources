@@ -1,10 +1,29 @@
-.h1 {
-color: blue; /* Color del texto */
-text-align: center; /* Alineación del texto */
-font-size: 32px; /* Tamaño de fuente */
-margin-bottom: 20px; /* Espacio inferior */
-text-transform: uppercase; /* Mayúsculas */
-font-weight: bold; /* Negrita */
-border-bottom: 2px solid black; /* Línea inferior */
-padding-bottom: 10px; /* Espaciado inferior */
+h1 {
+  color: blue; /* Color del texto */
+  text-align: center; /* Alineación del texto */
+  font-size: 32px; /* Tamaño de fuente */
+  margin-bottom: 20px; /* Espacio inferior */
+  text-transform: uppercase; /* Mayúsculas */
+  font-weight: bold; /* Negrita */
+  border-bottom: 2px solid black; /* Línea inferior */
+  padding-bottom: 10px; /* Espaciado inferior */
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+}
+
+details {
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+
+footer {
+  background-color: var(--heading-color);
+  padding: 50px 0;
+
+  & h2 {
+    color: var(--white);
+  }
 }
