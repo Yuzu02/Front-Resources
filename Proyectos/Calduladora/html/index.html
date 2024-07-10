@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" href="../css/estilo.css" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <table class="cuerpo">
+        <tr>
+            <td id="pantalla" colspan="4">
+                <div id="pantallaSecundaria"> </div>
+                <div id="pantallaPrincipal">0</div>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="siete" onclick="agregarAPantalla('7')">7</button></td>
+            <td><button id="ocho" onclick="agregarAPantalla('8')">8</button></td>
+            <td><button id="nueve" onclick="agregarAPantalla('9')">9</button></td>
+            <td><button class="boton-accion" id="dividir" onclick="establecerOperacion('/')">÷</button></td>
+        </tr>
+        <tr>
+            <td><button id="cuatro" onclick="agregarAPantalla('4')">4</button></td>
+            <td><button id="cinco" onclick="agregarAPantalla('5')">5</button></td>
+            <td><button id="seis" onclick="agregarAPantalla('6')">6</button></td>
+            <td><button class="boton-accion" id="multiplicar" onclick="establecerOperacion('*')">x</button></td>
+        </tr>
+        <tr>
+            <td><button id="uno" onclick="agregarAPantalla('1')">1</button></td>
+            <td><button id="dos" onclick="agregarAPantalla('2')">2</button></td>
+            <td><button id="tres" onclick="agregarAPantalla('3')">3</button></td>
+            <td><button class="boton-accion" id="restar" onclick="establecerOperacion('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="boton-accion" id="limpiar" onclick="limpiarPantallas()">C</button></td>
+            <td><button id="cero" onclick="agregarAPantalla('0')">0</button></td>
+            <td><button class="boton-accion" id="sumar" onclick="establecerOperacion('+')">+</button></td>
+            <td><button class="boton-accion" id="igual" onclick="calcularResultado()">=</button></td>
+        </tr>
+    </table>
+
+    <script src="../js/calculadora.js"></script>
+</body>
+</html>
