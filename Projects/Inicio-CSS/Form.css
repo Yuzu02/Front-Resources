@@ -5,7 +5,8 @@
 }
 
 *{
-    font-family: fantasy;
+    font-family: monospace;
+   
 }
 
 .Formulario{
@@ -31,6 +32,7 @@ h1{
     text-align: center;
     font-weight: 100;
     letter-spacing: 7px;
+    font-weight: bold;
     
 }
 
@@ -48,6 +50,28 @@ input{
 label{
     position: relative;
     left: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    
+    
+}
+
+
+button{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    border-radius: 10px;
+    left: 60px;
+    margin: 20px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: rgb(36, 97, 152);
+    color: white;
 }
 
 input:hover{
