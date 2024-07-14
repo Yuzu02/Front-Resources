@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+     
+    font-family:fantasy;
+ background-image: url();
+
+}
+
+
+.Inicio{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(56, 128, 223);
+    margin: 30px auto;
+    padding: 30px;
+   border-radius: 40px;
+   position: relative;
+   top: 200px;
+   
+}
+
+h1{
+    font-weight: 90;
+    margin: auto;
+    width: 300px;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+
+.centrodiv{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    
+}
+
+input{
+    margin: 12px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 40px;
+
+    
+}
+
+.icon{
+    position: relative;
+    width: 100px;
+    height: 1px;
+    left: 25px;
+    top: -45px;
+    font-size: 18px;
+    
+}
+
+
+
+a{
+
+   margin-left: 15px;
+   position: relative;
+   left: 5px;
+   display: inline-block;
+   color: black;
+   
+
+   
+}
+
+button{
+   
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 12px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 15px;
+}
+
+hr{
+    border-style: none;
+}
+
+label{
+    position: relative;
+    left: 20px;
+    bottom: ;
+    font-size: 20px;
+    font-weight: 30;
+    
+    
+}
+
+input:hover{
+    transform:translateY(-1px);
+}
+
+
+button:hover{
+   background-color: rgb(129, 182, 252) ;
+   color: white;
+   
+}
+
+a:hover{
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+}
