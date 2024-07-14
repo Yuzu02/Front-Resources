@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: fantasy;
+}
+
+.Formulario{
+     
+    margin: auto;
+    margin-top:30px ;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(56, 128, 223);
+    border-radius: 20px;
+}
+
+.centro{
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 30px;
+    
+}
+
+h1{
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 7px;
+    
+}
+
+input{
+    margin: 12px;
+    position: relative;
+    left: 30px;
+    margin: 15px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+label{
+    position: relative;
+    left: 50px;
+}
+
+input:hover{
+    transform:translateY(-2.4px);
+}
