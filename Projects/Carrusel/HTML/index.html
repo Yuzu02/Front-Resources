@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Carrusel de Imágenes</title>
+		<link rel="stylesheet" href="../CSS/styles.css" />
+		<script src="../JS/script.js" defer></script>
+	</head>
+	<body>
+		<div class="carrusel">
+			<div class="image" id="images">
+				<img
+					src="https://via.placeholder.com/600x400/FF5733/FFFFFF?text=Imagen+1"
+					alt="1"
+				/>
+				<img
+					src="https://via.placeholder.com/600x400/33FF57/FFFFFF?text=Imagen+2"
+					alt="2"
+				/>
+				<img
+					src="https://via.placeholder.com/600x400/3357FF/FFFFFF?text=Imagen+3"
+					alt="3"
+				/>
+			</div>
+			<button type="button" class="button left" onclick="cambiarImagen(-1)">
+				&#10094;
+			</button>
+			<button type="button" class="button right" onclick="cambiarImagen(1)">
+				&#10095;
+			</button>
+		</div>
+	</body>
+</html>

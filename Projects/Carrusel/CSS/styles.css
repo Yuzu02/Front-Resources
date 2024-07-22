@@ -1,0 +1,42 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+.carrusel {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+}
+.image {
+	display: flex;
+	transition: transform 0.5s ease;
+	width: 100%;
+}
+.image img {
+	width: 600px;
+	height: 400px;
+}
+.button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(255, 255, 255, 0.7);
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.button.left {
+	left: 10px;
+}
+.button.right {
+	right: 10px;
+}
