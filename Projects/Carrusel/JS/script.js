@@ -1,9 +1,11 @@
+// Setup del carrusel
 let indice = 0;
 const images = document.getElementById("images");
 const totalImages = images.children.length;
 let startX = 0;
 let endX = 0;
 
+// Función para cambiar la imagen usando los botones
 function cambiarImagen(direction) {
 	indice = (indice + direction + totalImages) % totalImages;
 	images.style.transform = `translateX(${-indice * 600}px)`;
