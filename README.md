@@ -8,8 +8,7 @@ A comprehensive collection of learning resources for front-end web development t
 - CSS
 - JavaScript
 - React
-- Node.js
-- Next.js
+- Tailwind CSS
 
 ## About the Repository
 
