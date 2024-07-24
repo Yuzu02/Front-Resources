@@ -3,7 +3,7 @@
 # top-most EditorConfig file
 root = true
 
-[*]
+[*.html , *.css, *.js, *.jsx, *.ts , *.tsx]
 indent_style = tab
 indent_size = 3
 end_of_line = crlf
