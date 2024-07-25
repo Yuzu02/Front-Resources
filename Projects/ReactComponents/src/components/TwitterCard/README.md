@@ -21,7 +21,7 @@ Los estilos para este componente están definidos en el archivo `TwitterCard.css
 
 ## Uso
 
-Para implemetar el componete en otra seccion de la pagina, primero debes importarlo. 
+Para implemetar el componete en otra seccion de la pagina, primero debes importarlo.
 
 ```Javascript
 import { TwitterCard } from "./TwitterCard/TwitterCard";

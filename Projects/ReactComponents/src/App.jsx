@@ -1,4 +1,4 @@
-import { TwitterCard } from "./TwitterCard/TwitterCard";
+import { TwitterCard } from "./components/TwitterCard/TwitterCard";
 import "./App.css"
 
 function App () {
