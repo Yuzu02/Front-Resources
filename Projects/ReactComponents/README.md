@@ -32,7 +32,7 @@ Node.js [Instalar Aqui](https://nodejs.org/en/download/)
 Para comenzar con este proyecto, clona el repositorio y navega al directorio del proyecto. Luego, instala las dependencias y ejecuta el proyecto.
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/Yuzu02/Front-Resources.git
 cd Front-Resources/Projects/ReactComponents
 npm install
 npm start
