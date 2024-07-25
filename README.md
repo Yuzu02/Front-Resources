@@ -17,9 +17,15 @@ This repository serves as a one-stop-shop for front-end developers looking to en
 
 ## 🧭 How to Use
 
-1. Navigate through the different folders in the repository to find resources for your technology of choice.
-2. Each folder contains a `README.md` file that provides a brief overview of the resources available and links to the relevant materials.
-3. Explore the `Projects` folder to find hands-on coding projects that you can work on to practice your skills.
+1. Clone this repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/Yuzu02/Front-Resources.git
+   ```
+
+2. Navigate through the different folders in the repository to find resources for your technology of choice.
+3. Each folder contains a `README.md` file that provides a brief overview of the resources available and links to the relevant materials.
+4. Explore the `Projects` folder to find hands-on coding projects that you can work on to practice your skills.
 
 ## 💻 Projects
 
