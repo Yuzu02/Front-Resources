@@ -35,4 +35,4 @@ Para comenzar con este proyecto, clona el repositorio y navega al directorio del
 git clone https://github.com/Yuzu02/Front-Resources.git
 cd Front-Resources/Projects/ReactComponents
 npm install
-npm start
+npm run dev
